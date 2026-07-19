@@ -49,11 +49,6 @@ df.createOrReplaceTempView("sales")
 
 # COMMAND ----------
 
-# MAGIC %sql
-# MAGIC select * from sales limit 10
-
-# COMMAND ----------
-
 # MAGIC %sql 
 # MAGIC SELECT
 # MAGIC SUM(`Net Sales calculated`) AS Revenue
